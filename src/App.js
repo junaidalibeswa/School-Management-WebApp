@@ -1,11 +1,10 @@
 import React from 'react';
-import './App.css';
-const os = require('os');
+import FeesFormController from './components/FeesFormController'
 
 function App() {
   return (
     <div className="App">
-      <h1>Welcome to new world</h1>
+      <FeesFormController />
     </div>
   );
 }
